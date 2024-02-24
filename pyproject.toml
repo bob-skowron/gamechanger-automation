@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gamechanger-automation"
+version = "0.1.0"
+description = ""
+authors = ["Bob Skowron <bob.skowron@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.18.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.2"
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
